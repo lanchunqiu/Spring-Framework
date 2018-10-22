@@ -141,6 +141,7 @@ public class ClassPathXmlApplicationContext extends AbstractXmlApplicationContex
 		super(parent);
 		setConfigLocations(configLocations);
 		if (refresh) {
+			//初始化最核心方法，把所有的Bean重新构造一遍
 			refresh();
 		}
 	}

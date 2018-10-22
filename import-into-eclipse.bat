@@ -120,3 +120,5 @@ echo When complete, you'll have Git support enabled for all projects.
 echo. 
 echo You're ready to code! Goodbye!
 
+pause
+
